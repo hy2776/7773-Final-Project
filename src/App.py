@@ -145,7 +145,6 @@ def main():
                     'sentiment_score_LM': [float(st.session_state.sentiment_score_lm)],
                     'Sentiment': [int(st.session_state.sentiment)]
                 })
-                print(st.session_state.sentiment_score_lm, st.session_state.sentiment)
                 # Append new record to historical data
                 combined_data = pd.concat([historical_records, new_record], ignore_index=True)
                 combined_data.to_csv('../data/preprocessed/test.csv')

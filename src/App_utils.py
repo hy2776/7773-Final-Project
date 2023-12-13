@@ -87,11 +87,13 @@ def get_sentiment_from_pretrained_model(statement):
     from transformers import BertTokenizer, BertForSequenceClassification, pipeline
 
     # Load the model and tokenizer from local paths
-    model_path = '../data/models/pretrained_sentiment_model/'
-    tokenizer_path = '../data/models/tokenizer/'
-    model = BertForSequenceClassification.from_pretrained(model_path, num_labels=3)
-    tokenizer = BertTokenizer.from_pretrained(tokenizer_path)
-
+    # model_path = '../data/models/pretrained_sentiment_model/'
+    # tokenizer_path = '../data/models/tokenizer/'
+    # model = BertForSequenceClassification.from_pretrained(model_path, num_labels=3)
+    # tokenizer = BertTokenizer.from_pretrained(tokenizer_path)
+    model_name = "ahmedrachid/FinancialBERT-Sentiment-Analysis"
+    model = BertForSequenceClassification.from_pretrained(model_name, num_labels=3)
+    tokenizer = BertTokenizer.from_pretrained(model_name)
     # Initialize the pipeline
     nlp = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer, truncation=True)
 
