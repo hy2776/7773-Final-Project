@@ -39,3 +39,12 @@ build-backend = "pdm.backend"
 [tool.rye]
 managed = true
 dev-dependencies = []
+
+[tool.poetry]
+name = "7773-final-project"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    "hy2776 <731471764@qq.com>"
+]
+

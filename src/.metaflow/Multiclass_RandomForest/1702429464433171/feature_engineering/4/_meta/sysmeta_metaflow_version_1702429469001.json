@@ -1,0 +1,1 @@
+{"flow_id": "Multiclass_RandomForest", "run_number": "1702429464433171", "step_name": "feature_engineering", "task_id": "4", "field_name": "metaflow_version", "type": "metaflow_version", "value": "2.10.8", "tags": ["attempt_id:0"], "user_name": "hanyan", "ts_epoch": 1702429469001}

@@ -130,6 +130,7 @@ class Multiclass_RandomForest(FlowSpec):
 
         self.y_train = self.y.iloc[:280].values.ravel()
         self.y_test = self.y.iloc[280:].values.ravel()
+        self.test_dates = self.y.iloc[280:].index
         print(self.y_train.shape, self.y_test.shape)
 
         # oversample data
@@ -269,6 +270,18 @@ class Multiclass_RandomForest(FlowSpec):
                 f'{model_name}_test_f1_score': f1
             })
 
+            quarters = self.test_dates.quarter
+            print(quarters)
+            df = pd.DataFrame({
+                'y_test': data['y_test'],
+                'y_pred': data['y_pred'],
+                'quarter': quarters
+            })
+            # 按季度分组并计算指标
+            for quarter, group in df.groupby('quarter'):
+                recall = recall_score(group['y_test'], group['y_pred'], average='weighted')
+                print(quarter, recall)
+
             # Log confusion matrix
             exp.log_confusion_matrix(
                 labels=sorted(np.unique(data['y_test'])), 
@@ -293,7 +306,7 @@ class Multiclass_RandomForest(FlowSpec):
     @step
     def end(self):
         # all done, just print goodbye
-        print("All done at {}!\n See you, space cowboys!".format(datetime.utcnow()))
+        print("All done at {}!\n".format(datetime.utcnow()))
 
 
 if __name__ == '__main__':

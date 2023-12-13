@@ -1,0 +1,59 @@
+[MFLOG|0|2023-12-13T01:06:14.629883Z|runtime|b35d2285-b425-45ad-9826-8a96924c4325]COMET INFO: Experiment is live on comet.com https://www.comet.com/nyu-fre-7773-2021/hy2776-project/67d0a437465b4debaf8a5e551471e6c5
+[MFLOG|0|2023-12-13T01:06:14.633803Z|runtime|e60ef273-5aa4-4d07-a3bd-b0c64fa82bab]
+[MFLOG|0|2023-12-13T01:06:14.633847Z|runtime|f5eefc4f-543b-44bc-b3bc-2b8bd68bbbf8]<flow Multiclass_RandomForest step model_evaluation> failed:
+[MFLOG|0|2023-12-13T01:06:14.931921Z|runtime|ca7e4c53-114a-449b-b34e-8e141955ad05]    Internal error
+[MFLOG|0|2023-12-13T01:06:14.932461Z|runtime|2110f07f-73db-4ac0-97fc-b67c2ffd520d]Traceback (most recent call last):
+[MFLOG|0|2023-12-13T01:06:14.932560Z|runtime|9901b29b-dce9-4260-a23b-47472c886dd1]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/cli.py", line 1175, in main
+[MFLOG|0|2023-12-13T01:06:14.932595Z|runtime|b3622240-b218-41fc-b633-2b926107157d]    start(auto_envvar_prefix="METAFLOW", obj=state)
+[MFLOG|0|2023-12-13T01:06:14.932622Z|runtime|cb6bd95b-f3a8-466d-a4b4-70df519eb56c]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/tracing/__init__.py", line 27, in wrapper_func
+[MFLOG|0|2023-12-13T01:06:14.932651Z|runtime|9b0e64eb-347e-4f90-b6c2-f969aa377419]    return func(args, kwargs)
+[MFLOG|0|2023-12-13T01:06:15.347663Z|runtime|e414857c-62a4-4723-9830-7ee18385b761]           ^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-13T01:06:15.347763Z|runtime|787aca58-cf6f-4707-ad12-aca76c50407e]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 829, in __call__
+[MFLOG|0|2023-12-13T01:06:15.347794Z|runtime|23568d84-d41a-49d9-b466-4df629ba2cd7]    return self.main(args, kwargs)
+[MFLOG|0|2023-12-13T01:06:15.347815Z|runtime|eafdc9d1-5fc1-48aa-8404-acbf7c24d9fc]           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-13T01:06:15.347835Z|runtime|ce1a4fd7-6758-4385-835f-623fee94ab8c]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 782, in main
+[MFLOG|0|2023-12-13T01:06:15.347854Z|runtime|376262a4-936d-4ad0-b3cb-1221d772626a]    rv = self.invoke(ctx)
+[MFLOG|0|2023-12-13T01:06:15.347878Z|runtime|59205181-7b4a-43fa-96d8-c6931706ba85]         ^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-13T01:06:15.347900Z|runtime|76642fa2-589e-481d-be77-84d208a9b146]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1259, in invoke
+[MFLOG|0|2023-12-13T01:06:15.347918Z|runtime|b9174573-8edd-4a35-a694-d93202be483c]    return _process_result(sub_ctx.command.invoke(sub_ctx))
+[MFLOG|0|2023-12-13T01:06:15.347936Z|runtime|587ad92e-1405-4a16-845a-58235c43126a]                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-13T01:06:15.347953Z|runtime|fb3307af-8b80-4f8f-8710-2aea25010d8e]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 1066, in invoke
+[MFLOG|0|2023-12-13T01:06:15.347978Z|runtime|252c63a5-abdc-4330-89e3-673c2dd7b2fe]    return ctx.invoke(self.callback, ctx.params)
+[MFLOG|0|2023-12-13T01:06:15.347995Z|runtime|e3abacd6-3a3d-49ae-806b-1a6367367eb9]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-13T01:06:15.348012Z|runtime|e2c28d9e-4963-4c34-9cce-d7a8f0c2a960]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/_vendor/click/core.py", line 610, in invoke
+[MFLOG|0|2023-12-13T01:06:15.348030Z|runtime|6b1442d6-ed51-4651-b48c-c2a0c72c9f43]    return callback(args, kwargs)
+[MFLOG|0|2023-12-13T01:06:15.348046Z|runtime|72156114-175a-496c-8a2e-ed277a71f680]           ^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-13T01:06:15.348063Z|runtime|cec57f78-1be4-4f88-abec-1f40da35e342]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/_vendor/click/decorators.py", line 21, in new_func
+[MFLOG|0|2023-12-13T01:06:15.348080Z|runtime|531f9316-c1fd-4a83-af91-598893e2eb87]    return f(get_current_context(), args, kwargs)
+[MFLOG|0|2023-12-13T01:06:15.348097Z|runtime|d96768a3-e058-448e-b7e8-a7670c8a8f52]           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-13T01:06:15.348114Z|runtime|31dbee71-3213-46d6-a866-7c8e4b25701d]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/cli.py", line 582, in step
+[MFLOG|0|2023-12-13T01:06:15.348131Z|runtime|17288afd-3017-493d-b550-72682a17501f]    task.run_step(
+[MFLOG|0|2023-12-13T01:06:15.348160Z|runtime|f142d4d9-a04f-49dd-89a3-75ad39eeef9f]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/task.py", line 596, in run_step
+[MFLOG|0|2023-12-13T01:06:15.348178Z|runtime|8b66bf31-0fe0-4516-b53d-b0c5b75bbe94]    self._exec_step_function(step_func)
+[MFLOG|0|2023-12-13T01:06:15.348195Z|runtime|efd3d1f5-6132-4630-a71d-09931a7935a2]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/.venv/lib/python3.11/site-packages/metaflow/task.py", line 57, in _exec_step_function
+[MFLOG|0|2023-12-13T01:06:15.348212Z|runtime|b45bf3b8-99de-4801-b453-241ee7b93f44]    step_function()
+[MFLOG|0|2023-12-13T01:06:15.348228Z|runtime|4ca1bb46-d8f5-4c59-87b8-f1e8a0f591b5]  File "/Users/hanyan/Desktop/NYU/7773 Machine Learning/ML_project/7773_final_project/src/Flow.py", line 273, in model_evaluation
+[MFLOG|0|2023-12-13T01:06:15.348246Z|runtime|52ce6062-8fb6-44af-b177-a04ff9df0e36]    quarters = self.test_dates.dt.quarter
+[MFLOG|0|2023-12-13T01:06:15.348263Z|runtime|4d54aa83-665c-4071-bfdf-d96cc704e860]               ^^^^^^^^^^^^^^^^^^
+[MFLOG|0|2023-12-13T01:06:15.348280Z|runtime|ced0f6b2-cfa6-43ce-8f2a-c53f11adc24f]AttributeError: 'DatetimeIndex' object has no attribute 'dt'
+[MFLOG|0|2023-12-13T01:06:15.348297Z|runtime|336a973b-bf8d-4c9a-a557-b535b366a733]
+[MFLOG|0|2023-12-13T01:06:15.348315Z|runtime|309857a0-ed01-4503-b81f-19d289441a09]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2023-12-13T01:06:16.640098Z|runtime|1a36c02a-b13d-4761-a24b-3ef257e796bc]COMET INFO: Comet.ml Experiment Summary
+[MFLOG|0|2023-12-13T01:06:16.640263Z|runtime|67f23e7d-48e7-4411-829f-e11cba30d78c]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2023-12-13T01:06:16.640295Z|runtime|39cc5371-1e89-407e-8f7b-e3a418401289]COMET INFO:   Data:
+[MFLOG|0|2023-12-13T01:06:16.640317Z|runtime|32078f53-7216-4b8d-8e3d-35238802a253]COMET INFO:     display_summary_level : 1
+[MFLOG|0|2023-12-13T01:06:16.640338Z|runtime|e07541bb-9c07-448c-8723-7477360c59ed]COMET INFO:     url                   : https://www.comet.com/nyu-fre-7773-2021/hy2776-project/67d0a437465b4debaf8a5e551471e6c5
+[MFLOG|0|2023-12-13T01:06:16.640358Z|runtime|07235298-dcd6-4845-9bdc-e9e96311083c]COMET INFO:   Metrics:
+[MFLOG|0|2023-12-13T01:06:16.640379Z|runtime|29448746-ea18-491d-97fd-e0940b2140d3]COMET INFO:     baseline_test_accuracy  : 0.42857142857142855
+[MFLOG|0|2023-12-13T01:06:16.640397Z|runtime|98daea7d-7f66-4b66-a5b0-ee1a9c256def]COMET INFO:     baseline_test_f1_score  : 0.40904906643508465
+[MFLOG|0|2023-12-13T01:06:16.640416Z|runtime|f2651ffc-b5c8-48e6-8f90-b7092d144f26]COMET INFO:     baseline_test_precision : 0.3983236151603498
+[MFLOG|0|2023-12-13T01:06:16.640434Z|runtime|7b5d44c5-000f-482e-8942-a627dc8c9fbd]COMET INFO:     baseline_test_recall    : 0.42857142857142855
+[MFLOG|0|2023-12-13T01:06:16.640466Z|runtime|bbb24870-dfc8-4028-af91-faf7a3134ca7]COMET INFO:   Uploads:
+[MFLOG|0|2023-12-13T01:06:16.640485Z|runtime|69b9e5fc-c73f-4280-9b2d-2a97ecf55306]COMET INFO:     environment details      : 1
+[MFLOG|0|2023-12-13T01:06:16.640503Z|runtime|cd212c51-c8f7-4575-88e7-f6ee1ef6b995]COMET INFO:     filename                 : 1
+[MFLOG|0|2023-12-13T01:06:16.640524Z|runtime|b4eae342-83b3-4638-b0bd-271c5d87b687]COMET INFO:     git metadata             : 1
+[MFLOG|0|2023-12-13T01:06:16.640541Z|runtime|f5b06f45-5b1e-42f3-81f4-2b6fee4752d5]COMET INFO:     git-patch (uncompressed) : 1 (7.91 KB)
+[MFLOG|0|2023-12-13T01:06:16.640559Z|runtime|acf81a51-cc12-4bf3-87c1-c2596398a9d7]COMET INFO:     installed packages       : 1
+[MFLOG|0|2023-12-13T01:06:16.640577Z|runtime|6224a9a7-dfac-49ff-89d5-4e0525c10737]COMET INFO:     source_code              : 1 (12.20 KB)
+[MFLOG|0|2023-12-13T01:06:16.640595Z|runtime|6a487691-c6d3-4e7a-b4cc-ea91bde70246]COMET INFO: 
+[MFLOG|0|2023-12-13T01:06:16.641006Z|runtime|faa3fd33-b29c-4dd9-8a05-dd7a818e5f68]Task failed.

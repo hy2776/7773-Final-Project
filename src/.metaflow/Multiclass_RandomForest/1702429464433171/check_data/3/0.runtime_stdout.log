@@ -1,0 +1,7 @@
+[MFLOG|0|2023-12-13T01:04:27.798155Z|runtime|1660ec2c-38cd-474a-b8e6-247d7b5fe922]All labels are: {'hold', 'decrease', 'increase'}
+[MFLOG|0|2023-12-13T01:04:27.800859Z|runtime|b2593e60-0634-4113-91e1-ab5ca923b3c5]outlier values before replacement:
+[MFLOG|0|2023-12-13T01:04:27.801229Z|runtime|0a284fa0-57a2-4c83-a1ed-70b9703ac823]observation_date            
+[MFLOG|0|2023-12-13T01:04:27.801261Z|runtime|f3ae624f-abc0-4244-a7ed-e917d3577b43]2020/4/1          Unemp_rate      14.70
+[MFLOG|0|2023-12-13T01:04:27.801285Z|runtime|8c2dadeb-325d-48a0-9bd4-1ad07b1c31b1]2021/12/1         SPX           4766.18
+[MFLOG|0|2023-12-13T01:04:27.801307Z|runtime|cae58472-5c44-4ffc-a05e-c56b39b97f73]dtype: float64
+[MFLOG|0|2023-12-13T01:04:27.801335Z|runtime|8673e000-7395-4645-a13a-de1cd3a74f4d]2

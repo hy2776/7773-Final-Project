@@ -1,0 +1,4 @@
+[MFLOG|0|2023-12-13T01:09:28.915504Z|runtime|ea359e20-f45f-4f91-9a1d-54e3c5aec84a](831, 85)
+[MFLOG|0|2023-12-13T01:09:28.916326Z|runtime|b3506eeb-f205-4fc4-a043-955e80aa746b](357, 85)
+[MFLOG|0|2023-12-13T01:09:28.919240Z|runtime|f699e16b-7bb6-4b97-9990-c27efb85625e]Selected Features: ['ISM PMI', 'Unemp_rate', '10y_try_s1', 'sentiment_score_LM_s1', 'Sentiment_s1', 'Sentiment_s2', 'Housing_starts_s3', 'Unemp_rate_s3', 'sentiment_score_LM_s3', 'Sentiment_s3', 'PCE_pctchg', 'Consumer_Sentiment_pctchg', 'CPI_pctchg', 'Housing_starts_pctchg', 'SPX_pctchg', 'Consumer_Sentiment_pctchg_s1', 'ISM PMI_pctchg_s1', '10y_try_pctchg_s1', '10y_try_pctchg_s2', 'Unemp_rate_pctchg_s3']
+[MFLOG|0|2023-12-13T01:09:29.251617Z|runtime|727b3ad5-2325-41f1-88cd-35ac7bc1fc11]length of Selected Features: 20

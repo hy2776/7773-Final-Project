@@ -1,0 +1,60 @@
+[MFLOG|0|2023-12-13T01:14:13.169658Z|runtime|1d9c480d-44f7-4d96-b656-0b7ad368f55e]COMET INFO: Experiment is live on comet.com https://www.comet.com/nyu-fre-7773-2021/hy2776-project/a447099fdec244afabc5ec544c9e5bd5
+[MFLOG|0|2023-12-13T01:14:13.738388Z|runtime|8835b22e-c45d-438d-8c43-da5d3c679bc9]
+[MFLOG|0|2023-12-13T01:14:13.738501Z|runtime|d3438cbc-e0d8-48c9-93f8-51fa0ba6e8e0]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2023-12-13T01:14:13.738534Z|runtime|78ad20cb-0905-4140-9b61-6a0f239d51ca]COMET INFO: Comet.ml Experiment Summary
+[MFLOG|0|2023-12-13T01:14:13.738563Z|runtime|b96a4324-6e4c-451c-bb1c-ad9206f674a2]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2023-12-13T01:14:13.738589Z|runtime|e2e40043-df83-457f-8b62-b37b2134140d]COMET INFO:   Data:
+[MFLOG|0|2023-12-13T01:14:13.738616Z|runtime|0c0c9e7f-eb0f-4b75-ab78-b1f97e23ae5d]COMET INFO:     display_summary_level : 1
+[MFLOG|0|2023-12-13T01:14:13.738641Z|runtime|dbb497bc-e544-448a-8913-8871b8e0c1c9]COMET INFO:     url                   : https://www.comet.com/nyu-fre-7773-2021/hy2776-project/a447099fdec244afabc5ec544c9e5bd5
+[MFLOG|0|2023-12-13T01:14:13.738663Z|runtime|764a71ef-dfc5-47bc-a99f-aa3677efdb8d]COMET INFO:   Metrics:
+[MFLOG|0|2023-12-13T01:14:13.738684Z|runtime|46d7232b-83cc-4ba1-a138-51697822c9cb]COMET INFO:     baseline_test_accuracy  : 0.44155844155844154
+[MFLOG|0|2023-12-13T01:14:13.738706Z|runtime|da470741-5238-4943-979a-5a9ddc596ea8]COMET INFO:     baseline_test_f1_score  : 0.41855450314096926
+[MFLOG|0|2023-12-13T01:14:13.738727Z|runtime|431388c3-439a-4a07-8724-3340b59e0f4d]COMET INFO:     baseline_test_precision : 0.40751391465677184
+[MFLOG|0|2023-12-13T01:14:13.738744Z|runtime|9ec1435f-2433-45c1-89e1-a5fc31f37bff]COMET INFO:     baseline_test_recall    : 0.44155844155844154
+[MFLOG|0|2023-12-13T01:14:13.738766Z|runtime|cfa6eb07-d488-48d6-8482-4e89bb9f722c]COMET INFO:   Parameters:
+[MFLOG|0|2023-12-13T01:14:13.738784Z|runtime|72f15549-519f-4ce7-9680-cc5955b41156]COMET INFO:     bootstrap         : True
+[MFLOG|0|2023-12-13T01:14:13.738801Z|runtime|b6790d97-3a50-4dbd-b9e9-d64977f10a18]COMET INFO:     class_weight      : balanced_subsample
+[MFLOG|0|2023-12-13T01:14:13.738818Z|runtime|fa8ba843-e96a-4562-95e9-8a746b6e1eb3]COMET INFO:     max_depth         : 40
+[MFLOG|0|2023-12-13T01:14:13.738835Z|runtime|329edb8f-2c5d-474c-a57d-0bafd9518ed2]COMET INFO:     max_features      : sqrt
+[MFLOG|0|2023-12-13T01:14:13.738851Z|runtime|084e5a2c-a2ab-49dd-b275-cecfa7061267]COMET INFO:     min_samples_leaf  : 4
+[MFLOG|0|2023-12-13T01:14:13.738874Z|runtime|af807120-f97b-45d2-9103-26389545af06]COMET INFO:     min_samples_split : 10
+[MFLOG|0|2023-12-13T01:14:13.738890Z|runtime|3c5bece8-0167-4c6f-bbf6-7d95caedf381]COMET INFO:     n_estimators      : 1800
+[MFLOG|0|2023-12-13T01:14:13.738907Z|runtime|d6bb1cb8-cb3b-4b12-b885-7b4394a943ed]COMET INFO:   Uploads:
+[MFLOG|0|2023-12-13T01:14:13.738925Z|runtime|00d7e12f-71a4-4830-b94e-ffd2828d463b]COMET INFO:     confusion-matrix         : 1
+[MFLOG|0|2023-12-13T01:14:13.738946Z|runtime|2329eda5-0142-4852-a222-04d2f8847409]COMET INFO:     environment details      : 1
+[MFLOG|0|2023-12-13T01:14:13.738965Z|runtime|f7702604-5c43-458a-aa4c-2c9865cbeb5f]COMET INFO:     filename                 : 1
+[MFLOG|0|2023-12-13T01:14:13.738981Z|runtime|214d253e-a3b6-40bf-9ad6-59a28db31f96]COMET INFO:     git metadata             : 1
+[MFLOG|0|2023-12-13T01:14:13.738999Z|runtime|78132e9a-9c07-4804-9b57-c069aba68ef5]COMET INFO:     git-patch (uncompressed) : 1 (7.93 KB)
+[MFLOG|0|2023-12-13T01:14:13.739018Z|runtime|eb160385-8499-4783-af2d-fea6d495ee23]COMET INFO:     installed packages       : 1
+[MFLOG|0|2023-12-13T01:14:13.739036Z|runtime|bbf51b50-501a-4be5-abdb-d2530ad89d7c]COMET INFO:     source_code              : 1 (12.23 KB)
+[MFLOG|0|2023-12-13T01:14:13.739054Z|runtime|ecefdf32-39d5-4b14-9e94-fdafab3e30ab]COMET INFO: 
+[MFLOG|0|2023-12-13T01:14:17.511325Z|runtime|03cb8232-8615-41df-a526-73cf2c08f2e4]COMET INFO: Experiment is live on comet.com https://www.comet.com/nyu-fre-7773-2021/hy2776-project/148adf5ad95e4b0e9f83db9a65a58273
+[MFLOG|0|2023-12-13T01:14:17.956936Z|runtime|5f595faa-785d-4649-9fdd-68d70faf4845]
+[MFLOG|0|2023-12-13T01:14:17.957076Z|runtime|79d19de1-1115-4c95-97b9-2c9e7e72e677]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2023-12-13T01:14:17.957105Z|runtime|58dd4f06-f04e-4dc8-a139-886d9b1d1062]COMET INFO: Comet.ml Experiment Summary
+[MFLOG|0|2023-12-13T01:14:17.957126Z|runtime|e89c43ea-3b35-4be0-90aa-a229dbb601fc]COMET INFO: ---------------------------------------------------------------------------------------
+[MFLOG|0|2023-12-13T01:14:17.957145Z|runtime|11a39bba-6616-4222-a997-86af47fb51fe]COMET INFO:   Data:
+[MFLOG|0|2023-12-13T01:14:17.957163Z|runtime|70e13c46-0339-4486-b553-c108506d4e9e]COMET INFO:     display_summary_level : 1
+[MFLOG|0|2023-12-13T01:14:17.957180Z|runtime|ae5246c8-4940-409d-a421-2d7d3124ce7a]COMET INFO:     url                   : https://www.comet.com/nyu-fre-7773-2021/hy2776-project/148adf5ad95e4b0e9f83db9a65a58273
+[MFLOG|0|2023-12-13T01:14:17.957200Z|runtime|a98bba85-e4ff-47f4-a403-a49331f393eb]COMET INFO:   Metrics:
+[MFLOG|0|2023-12-13T01:14:17.957222Z|runtime|3c45deb5-c0fd-4d88-a8f2-d22833d2a9bd]COMET INFO:     rolling_test_accuracy  : 0.6103896103896104
+[MFLOG|0|2023-12-13T01:14:17.957243Z|runtime|6c3847f2-818a-4ee5-942c-a0bc8e4f7509]COMET INFO:     rolling_test_f1_score  : 0.5902376873523953
+[MFLOG|0|2023-12-13T01:14:17.957263Z|runtime|d1d03264-feb5-409b-8cf3-dcaaa7367f28]COMET INFO:     rolling_test_precision : 0.587951132425526
+[MFLOG|0|2023-12-13T01:14:17.957283Z|runtime|4c086249-79d1-420a-9ac6-45004357f057]COMET INFO:     rolling_test_recall    : 0.6103896103896104
+[MFLOG|0|2023-12-13T01:14:17.957301Z|runtime|e24aa5ed-bc27-4d77-bad9-493f6234364a]COMET INFO:   Parameters:
+[MFLOG|0|2023-12-13T01:14:17.957319Z|runtime|2cb01b25-6a41-4c7b-892e-f27912610ce2]COMET INFO:     bootstrap         : True
+[MFLOG|0|2023-12-13T01:14:17.957335Z|runtime|f535137a-8ee9-477f-a6da-84970a308bf0]COMET INFO:     class_weight      : balanced_subsample
+[MFLOG|0|2023-12-13T01:14:17.957351Z|runtime|98ada22f-7762-4c73-929a-87adc450d8f6]COMET INFO:     max_depth         : 40
+[MFLOG|0|2023-12-13T01:14:17.957368Z|runtime|06ca2c53-4d7c-4d0e-be15-50b6dd79f740]COMET INFO:     max_features      : sqrt
+[MFLOG|0|2023-12-13T01:14:17.957387Z|runtime|2edb123d-7f27-4438-80a0-53db12b7e984]COMET INFO:     min_samples_leaf  : 4
+[MFLOG|0|2023-12-13T01:14:17.957406Z|runtime|e1aa7a81-988b-422b-863b-af2e458aa110]COMET INFO:     min_samples_split : 10
+[MFLOG|0|2023-12-13T01:14:17.957424Z|runtime|06b6bfdb-49ba-4558-863d-fc9c6041d9df]COMET INFO:     n_estimators      : 1800
+[MFLOG|0|2023-12-13T01:14:17.957441Z|runtime|f8cd0e0f-2c1e-4f66-a6dd-53dadd04477b]COMET INFO:   Uploads:
+[MFLOG|0|2023-12-13T01:14:17.957462Z|runtime|df55e467-2e87-45ee-b558-dbe36648c1aa]COMET INFO:     confusion-matrix         : 1
+[MFLOG|0|2023-12-13T01:14:17.957479Z|runtime|89512317-dbbf-4a57-bfb3-b3dc2642e644]COMET INFO:     environment details      : 1
+[MFLOG|0|2023-12-13T01:14:17.957497Z|runtime|cff49783-cc9c-4278-99b0-ea581df02183]COMET INFO:     filename                 : 1
+[MFLOG|0|2023-12-13T01:14:17.957514Z|runtime|332c661e-81f4-4271-b495-27f8ed90e483]COMET INFO:     git metadata             : 1
+[MFLOG|0|2023-12-13T01:14:17.957530Z|runtime|b7491c8e-5d8a-419d-aad2-bbb184e82ced]COMET INFO:     git-patch (uncompressed) : 1 (7.93 KB)
+[MFLOG|0|2023-12-13T01:14:17.957547Z|runtime|f38c0e89-3e85-4a8f-a617-e8f061f1f920]COMET INFO:     installed packages       : 1
+[MFLOG|0|2023-12-13T01:14:17.957563Z|runtime|1c24dfe8-0533-4ec3-a0b2-3df284dad1f0]COMET INFO:     source_code              : 1 (12.23 KB)
+[MFLOG|0|2023-12-13T01:14:17.957580Z|runtime|031f3bba-4ef7-4618-a6c3-a1c5cb698ee9]COMET INFO: 
