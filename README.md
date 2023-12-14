@@ -9,6 +9,7 @@
 
 ## 1. Project Description
 This project aims to predict changes in the Federal Fund Rate using a variety of data analysis and machine learning techniques. The project includes exploratory data analysis of both textual and non-textual data, sentiment analysis, and predictive modeling using Random Forest.
+Federal funds rate is the interest rate used between banks. It dictates all other rates, such as loans and mortgages. From an investment perspective, it's important to know what the Fed will do to make better investment decisions. For example, when the Fed cuts rates, it's a good time to buy.
 
 ## 2. Installation
 #### Libraries
@@ -38,13 +39,13 @@ Data used for each prediction are only those available before the meeting.
 
 
 #### Market Data
-each coolumn's meaning are listed as follows:
+each column's meaning are listed as follows:
 * FEDFUNDS: from FRED, federal funds rate decided by FOMC
 * Target: percent change in fed rate
 * Target_category: increase, decrease, hold according to percent change
-* PCE: from FRED, Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index), Index 2017=100, Monthly, Seasonally Adjusted
+* PCE: from FRED, Personal Consumption Expenditures Excluding Food and Energy (Chain-Type Price Index), Index 2017=100, Monthly, Seasonally Adjusted, a measure of the prices that people living in the United States, or those buying on their behalf, pay for goods and services
 * Consumer_Sentiment: from FRED, Consumer Opinion Surveys: Confidence Indicators: Composite Indicators: OECD Indicator for United States, Normalised (Normal=100), Monthly, Seasonally Adjusted
-* Supply_NewHouse: from FRED, Monthly Supply of New Houses in the United States, Months' Supply, Monthly, Seasonally Adjusted
+* Supply_NewHouse: from FRED, Monthly Supply of New Houses in the United States, Months' Supply, Monthly, Seasonally Adjusted, The months' supply is the ratio of new houses for sale to new houses sold
 * CPI: from FRED, Consumer Price Index for All Urban Consumers: All Items in U.S. City Average, Index 1982-1984=100, Monthly, Seasonally Adjusted
 * ISM PMI: from FRED, The ISM manufacturing index, also known as the purchasing managers' index (PMI), is a monthly indicator of U.S. economic activity based on a survey of purchasing managers at more than 300 manufacturing firms. It is considered to be a key indicator of the state of the U.S. economy.
 * Housing_starts: from FRED, New Privately-Owned Housing Units Authorized in Permit-Issuing Places: Total Units, Thousands of Units, Monthly, Seasonally Adjusted Annual Rate
