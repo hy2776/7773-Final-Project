@@ -79,5 +79,5 @@ scrape statements from FOMC website and clean the text (removing header, rooters
 
 
 ## 5. Licensing, Authors, Acknowledgements
-Data attributes to the source (FRED, ISM, US Treasury and Quandl). Loughran McDonald dictionary attributes to https://sraf.nd.edu/textual-analysis/resources/ in University of Notre Dame.
+Data attributes to the source (FRED, ISM, US Treasury). Loughran McDonald dictionary attributes to https://sraf.nd.edu/textual-analysis/resources/ in University of Notre Dame.
 Feel free to use the source code as you would like!
