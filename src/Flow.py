@@ -277,7 +277,7 @@ class Multiclass_RandomForest(FlowSpec):
                 'y_pred': data['y_pred'],
                 'quarter': quarters
             })
-            # 按季度分组并计算指标
+            # groupby quaters
             for quarter, group in df.groupby('quarter'):
                 recall = recall_score(group['y_test'], group['y_pred'], average='weighted')
                 print(quarter, recall)
