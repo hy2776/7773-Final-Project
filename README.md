@@ -77,7 +77,9 @@ App built with streamlit with some utility functions to keep the app simple
 #### FomcGetData.py + CleanStatements.py
 scrape statements from FOMC website and clean the text (removing header, rooters and do some filtering)
 
+## 5. Experiments
+The metrics and confusion matrix of baseline model and rolling window model are recorded in comet. To make it simple, we delete previous many experiments. Here is the link: https://www.comet.com/nyu-fre-7773-2021/hy2776-project/view/new/panels
 
-## 5. Licensing, Authors, Acknowledgements
+## 6. Licensing, Authors, Acknowledgements
 Data attributes to the source (FRED, ISM, US Treasury). Loughran McDonald dictionary attributes to https://sraf.nd.edu/textual-analysis/resources/ in University of Notre Dame.
 Feel free to use the source code as you would like!
