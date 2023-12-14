@@ -5,7 +5,8 @@
 2. Installation
 3. Data Understanding
 4. Code Description
-5. Licensing, Authors, Acknowledgements
+5. Experiments
+6. Licensing, Authors, Acknowledgements
 
 ## 1. Project Description
 This project aims to predict changes in the Federal Fund Rate using a variety of data analysis and machine learning techniques. The project includes exploratory data analysis of both textual and non-textual data, sentiment analysis, and predictive modeling using Random Forest.
