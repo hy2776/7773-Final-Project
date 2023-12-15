@@ -20,7 +20,9 @@ rye sync
 ```
 #### To run our project
 1. do ```git pull```
-2. Run 
+2. Run first our Flow.py file from the src folder
+3. Then run App.py which will open up streamlit
+   
 #### Downloaded input data
 1. Get statement from FOMC Website (https://www.federalreserve.gov/monetarypolicy/fomc.htm). Move to src directory `cd src`. Specify document type: statement. You can also specify from year.
    `python FomcGetData.py statement 1980`
