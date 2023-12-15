@@ -18,16 +18,19 @@ We use Rye to build a virtual environment, required libraries are described in p
 ```
 rye sync
 ```
-#### Download input data
+#### To run our project
+1. do ```git pull```
+2. Run 
+#### Downloaded input data
 1. Get statement from FOMC Website (https://www.federalreserve.gov/monetarypolicy/fomc.htm). Move to src directory `cd src`. Specify document type: statement. You can also specify from year.
    `python FomcGetData.py statement 1980`
 
 2. Get economic indices from FRED Website (https://fred.stlouisfed.org/) and Bloomberg terminal.
 
-3. Download Sentiment Dictionary in data/LoughranMcDonald directory in csv
+3. Downloaded Sentiment Dictionary in data/LoughranMcDonald directory in csv
    * Loughran and McDonald Sentiment Word Lists (https://sraf.nd.edu/loughranmcdonald-master-dictionary/) 
 
-4. Download Stopwords list in data/Wordlist directory in txt
+4. Downloaded Stopwords list in data/Wordlist directory in txt
    * StopWords Generic (https://sraf.nd.edu/textual-analysis/stopwords/)
 
 
