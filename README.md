@@ -1,4 +1,4 @@
-# Predicting central bank policy changes
+# Predicting Federal Fund Rate Changes
 
 ## Table of Contents
 1. Project Description
